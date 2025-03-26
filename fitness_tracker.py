@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 import joblib
-a
+
 # used to Load Data
 def load_data(file_path):
     data = pd.read_csv(file_path)
